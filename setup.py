@@ -45,9 +45,9 @@ setuptools_kwargs = {
     'install_requires': [
         'python-dateutil >= 2.5.0',
         'pytz >= 2011k',
-        'numpy == {numpy_ver}'.format(numpy_ver=1.16.4),
+        'numpy == {numpy_ver}'.format(numpy_ver='1.16.4'),
     ],
-    'setup_requires': ['numpy == {numpy_ver}'.format(numpy_ver=1.16.4)],
+    'setup_requires': ['numpy == {numpy_ver}'.format(numpy_ver='1.16.4')],
     'zip_safe': False,
 }
 
